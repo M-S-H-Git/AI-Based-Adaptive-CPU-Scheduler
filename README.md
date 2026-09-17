@@ -11,7 +11,7 @@ Traditional methods of learning CPU scheduling rely on manual mathematical traci
 
 This project is a robust, single-file C++ simulator designed to bridge basic operating-system concepts with a practical visual application. It visualizes process execution, calculates theoretical metrics, and introduces an **Adaptive AI Heuristic** to bridge theoretical algorithms with dynamic real-world workloads.
 
-[📄 **Read the Full Technical Report (PDF)**](./Technical_Report.pdf)
+[📄 **Read the Full Technical Report (PDF)**](<./AI-Based Adaptive CPU Scheduler_Report.pdf>)
 
 ## Features
 * **Interactive Educational Mode:** Load processes manually, from a file, or use built-in sample scenarios.
