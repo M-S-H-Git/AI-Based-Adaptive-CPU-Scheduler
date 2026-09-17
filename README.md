@@ -5,11 +5,10 @@
 ![C++17](https://img.shields.io/badge/C++-17-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-brightgreen.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
 ## Overview
-Traditional methods of learning CPU scheduling rely on manual mathematical tracing, which becomes unmanageable as process volume increases or when preemptive logic introduces frequent context switches. 
-
-This project is a robust, single-file C++ simulator designed to bridge basic operating-system concepts with a practical visual application. It visualizes process execution, calculates theoretical metrics, and introduces an **Adaptive AI Heuristic** to bridge theoretical algorithms with dynamic real-world workloads.
+Traditional methods of learning CPU scheduling rely on manual mathematical tracing, which becomes unmanageable as process volume increases or when preemptive logic introduces frequent context switching. This project is a robust, single-file C++ simulator designed to bridge basic operating-system concepts with a practical visual application. It visualizes process execution, calculates theoretical metrics, and highlights how different scheduling strategies behave under realistic workloads.
 
 [📄 **Read the Full Technical Report (PDF)**](./AI-Based_Adaptive_CPU_Scheduler_Report.pdf)
 
@@ -21,7 +20,7 @@ This project is a robust, single-file C++ simulator designed to bridge basic ope
 * **Zero Dependencies:** Pure C++17 implementation using standard library data structures and Windows ANSI escape codes.
 
 ## Supported Algorithms
-1. **First Come First Served (FCFS)** - Non-preemptive
+1. **First Come First Served (FCFC)** - Non-preemptive
 2. **Shortest Job First (SJF)** - Non-preemptive
 3. **Shortest Remaining Time First (SRTF)** - Preemptive
 4. **Round Robin (RR)** - Preemptive (configurable time quantum)
@@ -55,3 +54,7 @@ g++ -std=c++17 main.cpp -o scheduler.exe
 
 # Run the simulator
 ./scheduler.exe
+```
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
